@@ -28,7 +28,7 @@
             to="/dashboard/projects/create"
             class="bg-orange-button hover:bg-green-button text-white font-bold py-4 px-4 rounded inline-flex items-center"
             >
-            + Buat Campaign Baru
+            + Buat Project Baru
             </nuxt-link>
         </div>
         </div>
