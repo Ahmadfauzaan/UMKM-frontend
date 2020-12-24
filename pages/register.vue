@@ -1,7 +1,7 @@
 <template>
         <div class="h-screen flex justify-center items-center">
         <div
-          class="hidden md:block lg:w-1/3 bg-white h-full auth-background rounded-tr-xl rounded-br-xl"
+          class="hidden md:block lg:w-1/3 bg-white h-full auth-background rounded-tr-lg rounded-br-lg"
         ></div>
         <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
           <div class="w-full lg:w-1/2 px-10 lg:px-0">
@@ -38,19 +38,6 @@
               <div class="mb-4">
                 <label class="font-normal text-lg text-white block mb-3"
                   >Alamat Email</label
-                >
-                <input
-                  type="email"
-                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
-                  placeholder="Email"
-                  v-model="register.email"
-                />
-              </div>
-            </div>
-              <div class="mb-5">
-              <div class="mb-3">
-                <label class="font-normal text-lg text-white block mb-3"
-                  >No Telpon</label
                 >
                 <input
                   type="email"
