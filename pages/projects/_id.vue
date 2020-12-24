@@ -59,7 +59,7 @@
               </div>
             </div>
 
-            <h4 class="mt-5 font-semibold">What will you get:</h4>
+            <h4 class="mt-5 font-semibold">Apa yang akan didapat investor  :</h4>
             <ul class="list-check mt-3">
               <li v-for="perk in campaign.data.perks" :key="perk">
                 {{ perk }}

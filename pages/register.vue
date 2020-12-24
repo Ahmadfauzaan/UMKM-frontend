@@ -47,6 +47,32 @@
                 />
               </div>
             </div>
+              <div class="mb-6">
+              <div class="mb-4">
+                <label class="font-normal text-lg text-white block mb-3"
+                  >Alamat Email</label
+                >
+                <input
+                  type="email"
+                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
+                  placeholder="Email"
+                  v-model="register.email"
+                />
+              </div>
+            </div>
+              <div class="mb-6">
+              <div class="mb-4">
+                <label class="font-normal text-lg text-white block mb-3"
+                  >No NPWP</label
+                >
+                <input
+                  type="email"
+                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
+                  placeholder="Email"
+                  v-model="register.email"
+                />
+              </div>
+            </div>
             <div class="mb-6">
               <div class="mb-4">
                 <label class="font-normal text-lg text-white block mb-3"
