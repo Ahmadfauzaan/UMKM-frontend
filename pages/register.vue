@@ -47,10 +47,10 @@
                 />
               </div>
             </div>
-              <div class="mb-6">
-              <div class="mb-4">
+              <div class="mb-5">
+              <div class="mb-3">
                 <label class="font-normal text-lg text-white block mb-3"
-                  >Alamat Email</label
+                  >No Telpon</label
                 >
                 <input
                   type="email"
@@ -63,7 +63,7 @@
               <div class="mb-6">
               <div class="mb-4">
                 <label class="font-normal text-lg text-white block mb-3"
-                  >No NPWP</label
+                  >NPWP</label
                 >
                 <input
                   type="email"
