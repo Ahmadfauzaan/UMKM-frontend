@@ -1,7 +1,7 @@
 <template>
         <div class="h-screen flex justify-center items-center">
         <div
-          class="hidden md:block lg:w-1/3 bg-white h-full auth-background rounded-tr-lg rounded-br-lg"
+          class="hidden md:block lg:w-1/3 bg-white h-full auth-background rounded-tr-xl rounded-br-xl"
         ></div>
         <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
           <div class="w-full lg:w-1/2 px-10 lg:px-0">
