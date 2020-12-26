@@ -5,10 +5,10 @@
             <img src="/funded-illustration.svg" alt="" class="w-full" />
           </div>
           <h2 class="font-medium mb-3 text-3xl text-center">
-            Transaction unfinished
+            Transaksi belum selesai
           </h2>
           <p class="text-center font-light">
-            Your transaction is cancelled
+            Transaksi Anda dibatalkan
           </p>
           <div class="mb-4 mt-6">
             <div class="mb-3">

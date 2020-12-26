@@ -13,7 +13,7 @@
               kebutuhan mereka
             </h1>
             <p class="text-white text-lg font-light mb-8">
-              Danai ide terbaik Anda untuk menjadi <br />
+              Buatlah ide terbaik Anda untuk menjadi <br />
               produk nyata dan jadilah kontributor
             </p>
             <a
@@ -33,8 +33,8 @@
       <div class="flex justify-between items-center mb-10">
         <div class="w-auto">
           <h2 class="text-3xl text-gray-900 mb-8">
-            Hanya Butuh 3 Langkah untuk <br />
-            menjalankan ide cemerlang Anda!
+            Hanya Butuh 3 Langkah Untuk <br />
+            Menjalankan Ide Cemerlang Anda!
           </h2>
         </div>
       </div>
@@ -51,7 +51,7 @@
           <div class="step-content">
             <h3 class="font-medium">Sign Up</h3>
             <p class="font-light">
-              Daftarkan akun anda dan mulailah <br />mendanai UMKM
+              Daftarkan Akun Anda Dan Mulailah <br />Untuk Menginvestasikan Dana Anda Pada UMKM
             </p>
           </div>
         </div>
@@ -62,8 +62,8 @@
           <div class="step-content">
             <h3 class="font-medium">Buka Project</h3>
             <p class="font-light">
-              Pilih beberapa ide project, <br />
-              dan mulailah mendanai
+              Pilih Beberapa Ide Project, <br />
+              Dan Mulailah Untuk Menginvestasikan Dana Anda Pada UMKM
             </p>
           </div>
         </div>
@@ -85,8 +85,8 @@
       <div class="flex justify-between items-center">
         <div class="w-auto">
           <h2 class="text-3xl text-gray-900 mb-8">
-            Project baru yang bisa <br />
-            Anda danai
+            Project Baru Yang Bisa <br />
+            Anda Investasikan
           </h2>
         </div>
         <div class="w-auto mt-5">
@@ -148,7 +148,7 @@
               "
               class="mt-5 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-2 text-lg rounded-full"
             >
-              Danai UMKM ini
+              Danai UMKM Ini
             </button>
           </div>
         </div>
@@ -159,7 +159,7 @@
         <div class="w-auto">
           <h2 class="text-3xl text-gray-900 mb-8">
             Lihat Apa Yang Dikatakan <br />
-            Oleh mereka
+            Oleh Mereka
           </h2>
         </div>
       </div>
@@ -169,7 +169,7 @@
         </div>
         <div class="w-8/12 mt-16">
           <h2 class="text-3xl text-gray-900 font-light">
-            "Pendanaan di website UMKM sangat mudah dan nyaman.
+            "Investasi di website UMKM ini sangat mudah dan nyaman.
             Hanya perlu mencari ide, klik dan sudah mendanai. ”
           </h2>
           <div class="testimonial-info mt-8">

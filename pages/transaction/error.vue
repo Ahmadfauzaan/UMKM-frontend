@@ -5,11 +5,11 @@
             <img src="/funded-illustration.svg" alt="" class="w-full" />
           </div>
           <h2 class="font-medium mb-3 text-3xl text-center">
-            Oops! something wrong
+            Ups! sesuatu yang salah
           </h2>
-          <p class="text-center font-light">
-          An error occured when processing your transaction. <br /> 
-          Please try again later
+          <p class="text-center font-light">          
+          Terjadi kesalahan saat memproses transaksi Anda.<br /> 
+          Silakan coba lagi nanti
           </p>
           <div class="mb-4 mt-6">
             <div class="mb-3">
@@ -17,7 +17,7 @@
                 @click="$router.push({ path: '/' })"
                 class="block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-4 text-lg rounded-full"
               >
-                Fund Other Project
+                Mendanai Project Lain
               </button>
             </div>
           </div>

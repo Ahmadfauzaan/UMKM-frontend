@@ -13,7 +13,7 @@
         </div>
         <div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
-            <h3 class="text-2xl text-gray-900 mb-4">Details ide UMKM</h3>
+            <h3 class="text-2xl text-gray-900 mb-4">Details Ide UMKM</h3>
         </div>
         <div class="w-1/4 text-right">
             <nuxt-link
