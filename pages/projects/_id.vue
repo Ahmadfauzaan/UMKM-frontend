@@ -54,7 +54,7 @@
                   {{ campaign.data.User.nama }}
                 </div>
                 <div class="font-light text-md text-gray-400">
-                  {{ campaign.data.backer_count }} backer
+                  {{ campaign.data.backer_count }} investor sudah mendanai project ini
                 </div>
               </div>
             </div>
