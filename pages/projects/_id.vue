@@ -101,6 +101,9 @@
           <p class="font-light text-xl mb-5">
             {{ campaign.data.short_description }}
           </p>
+          <p class="font-light text-xl mb-5">
+            {{campaign.data.description}}
+          </p>
 
           <div class="relative progress-bar">
             <div
