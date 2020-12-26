@@ -1,17 +1,14 @@
 <template>
         <div class="h-screen flex justify-center items-center">
-        <div
-          class="hidden md:block lg:w-1/3 bg-white h-full auth-background rounded-tr-lg rounded-br-lg"
-        ></div>
         <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
-          <div class="w-full lg:w-1/2 px-10 lg:px-0">
-            <h2 class="font-normal mb-6 text-3xl text-white">
+          <div class="w-full lg:w-5/6 px-10 lg:px-0">
+            <h2 class="font-normal mb-6 mt-48 text-3xl text-white">
               Sign Up Account
             </h2>
             <div class="mb-6">
               <div class="mb-4">
                 <label class="font-normal text-lg text-white block mb-3"
-                  >Nama Lengkap</label
+                  >Nama</label
                 >
                 <input
                   type="text"
@@ -31,6 +28,19 @@
                   class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
                   placeholder="Pekerjaan"
                   v-model="register.pekerjaan"
+                />
+              </div>
+            </div>
+                        <div class="mb-6">
+              <div class="mb-4">
+                <label class="font-normal text-lg text-white block mb-3"
+                  >No Telfon</label
+                >
+                <input
+                  type="text"
+                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
+                  placeholder="Pekerjaan"
+                  v-model="register.telfon"
                 />
               </div>
             </div>
@@ -56,7 +66,7 @@
                   type="email"
                   class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
                   placeholder="Email"
-                  v-model="register.email"
+                  v-model="register.npwp"
                 />
               </div>
             </div>
@@ -106,6 +116,8 @@ export default {
                 nama: '',
                 email: '',
                 pekerjaan: '',
+                telfon: '',
+                npwp: '',
                 password: '',
             },
         }
