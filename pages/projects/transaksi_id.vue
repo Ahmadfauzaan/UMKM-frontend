@@ -8,7 +8,32 @@
     <section class="container mx-auto pt-8">
         <div class="flex justify-between items-center">
         <div class="w-full mr-6">
-            <h2 class="text-4xl text-gray-900 mb-2 font-medium">Transaksi Project UMKM</h2>
+            <h2 class="text-4xl text-gray-900 mb-2 font-medium">Dashboard</h2>
+        </div>
+        </div>
+        <div class="flex justify-between items-center">
+        <div class="w-3/4 mr-6">
+            <h3 class="text-2xl text-gray-900 mb-4">Details Ide UMKM</h3>
+        </div>
+        <div class="w-1/4 text-right">
+            <nuxt-link
+            :to="{
+                name: 'dashboard-projects-id-edit',
+                params: {id : campaign.data.id}
+            }"
+            class="bg-green-button hover:bg-green-button text-white font-bold px-4 py-1 rounded inline-flex items-center"
+            >
+            Edit
+            </nuxt-link>
+            <nuxt-link
+            :to="{
+                name: 'dashboard',
+                params: {id : campaign.data.id}
+            }"
+            class="bg-green-button hover:bg-green-button text-white font-bold px-4 py-1 rounded inline-flex items-center"
+            >
+            Save
+            </nuxt-link>
         </div>
         </div>
         <div class="block mb-2">
@@ -44,6 +69,20 @@
                 <p class="text-4xl text-gray-700 text-base">Rp {{new Intl.NumberFormat().format(campaign.data.goal_amount) }}</p>
             </div>
             </div>
+        </div>
+        </div>
+        <div class="flex justify-between items-center">
+        <div class="w-2/4 mr-6">
+            <h3 class="text-2xl text-gray-900 mb-4 mt-5">Gallery</h3>
+        </div>
+        <div class="w-2/4 text-right">
+        <input type="file" ref="file" @change="selectFile" class="border p-1 rounded overflow-hidden">
+            <button
+            @click="upload"
+            class="bg-green-button hover:bg-green-button text-white font-bold px-4 py-2 rounded inline-flex items-center"
+            >
+            Upload
+            </button>
         </div>
         </div>
         <div class="grid grid-cols-4 gap-4 -mx-2">
