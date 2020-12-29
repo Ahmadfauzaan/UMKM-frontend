@@ -199,6 +199,9 @@ export default {
         console.log(error)
       }
     },
+    changeImage(url) {
+      this.default_image = url
+  },
   },
   mounted() {
     this.default_image =
