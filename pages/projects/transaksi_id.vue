@@ -129,7 +129,6 @@
 
 <script>
 export default {
-    middleware: 'auth',
     async asyncData({$axios, params}) {
         const campaign = await $axios.$get('/api/v1/campaigns/' + params.id)
         const transactions = await $axios.$get('/api/v1/campaigns/' + params.id +'/transactions')
