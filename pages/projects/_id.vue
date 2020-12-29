@@ -79,6 +79,12 @@
               >
                 Danai UMKM Ini
               </button>
+              <nuxt-link
+                to="projects/transaksi_id"
+                class="text-center mt-3 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-medium px-6 py-3 text-md rounded-full"
+              >
+                Transaksi Project UMKM
+              </nuxt-link>
             </template>
             <template v-else>
               <button
