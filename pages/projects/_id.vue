@@ -199,13 +199,10 @@ export default {
         console.log(error)
       }
     },
-    changeImage(url) {
-      this.default_image = url
-  },
   },
   mounted() {
     this.default_image =
       this.$axios.defaults.baseURL + '/' + this.campaign.data.image_url
-  },
+  }
 }
 </script>
