@@ -134,7 +134,7 @@
             {{ campaign.data.description }}
           </p>
         </div>
-        <!-- <div class="w-1/4 hidden md:block"></div> -->
+        <div class="w-1/4 hidden md:block"></div>
       </div>
 <div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
@@ -170,7 +170,9 @@
 export default {
   async asyncData({ $axios, params }) {
     const campaign = await $axios.$get('/api/v1/campaigns/' + params.id)
-    return { campaign }
+    const transactions = await $axios.$get('/api/v1/campaigns/' + params.id +'/transactions')
+
+        return {campaign, transactions}
   },
   data() {
     return {
