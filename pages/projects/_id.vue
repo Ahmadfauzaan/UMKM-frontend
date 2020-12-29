@@ -134,9 +134,9 @@
             {{ campaign.data.description }}
           </p>
         </div>
-        <div class="w-1/4 hidden md:block"></div>
+        <!-- <div class="w-1/4 hidden md:block"></div> -->
       </div>
-      <div class="flex justify-between items-center">
+<div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
             <h3 class="text-2xl text-gray-900 mb-4 mt-5">
             Transaksi pendanaan
