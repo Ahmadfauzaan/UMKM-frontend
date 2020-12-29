@@ -142,29 +142,6 @@
         </div>
         <div class="w-1/4 hidden md:block"></div>
       </div>
-<div class="flex justify-between items-center">
-        <div class="w-3/4 mr-6">
-            <h3 class="text-2xl text-gray-900 mb-4 mt-5">
-            Transaksi pendanaan
-            </h3>
-        </div>
-        </div>
-        <div class="block mb-2">
-        <div class="w-full lg:max-w-full lg:flex mb-4" v-for="transaction in transactions.data" :key="transaction.id">
-            <div
-            class="w-full border border-gray-400 lg:border-gray-400 bg-white rounded p-8 flex flex-col justify-between leading-normal"
-            >
-            <div>
-                <div class="text-gray-900 font-bold text-xl mb-1">
-                {{transaction.nama}}
-                </div>
-                <p class="text-sm text-gray-600 flex items-center mb-2">
-                Rp. {{new Intl.NumberFormat().format(transaction.amount)}} &middot; {{transaction.created_at}}
-                </p>
-            </div>
-            </div>
-        </div>
-        </div>
     </section>
     <div class="cta-clip -mt-20"></div>
     <CallToAction />
