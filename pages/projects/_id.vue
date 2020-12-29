@@ -144,7 +144,7 @@
         </div>
         </div>
         <div class="block mb-2">
-        <div class="w-full lg:max-w-full lg:flex mb-4">
+        <div class="w-full lg:max-w-full lg:flex mb-4" v-for="transaction in transactions.data" :key="transaction">
             <div
             class="w-full border border-gray-400 lg:border-gray-400 bg-white rounded p-8 flex flex-col justify-between leading-normal"
             >
@@ -170,7 +170,7 @@
 export default {
   async asyncData({ $axios, params }) {
     const campaign = await $axios.$get('/api/v1/campaigns/' + params.id)
-    const transactions = await $axios.$get('/api/v1/campaigns/' + params.id +'/transactions' )
+    const transactions = await $axios.$get('/api/v1/transactions/' + params.id )
 
         return {campaign, transactions}
   },
