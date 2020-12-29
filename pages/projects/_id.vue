@@ -170,7 +170,7 @@
 export default {
   async asyncData({ $axios, params }) {
     const campaign = await $axios.$get('/api/v1/campaigns/' + params.id)
-    const transactions = await $axios.$get('/api/v1/transactions/' + params.id )
+    const transactions = await $axios.$get('/api/v1/campaigns/' + params.id +'/transactions' )
 
         return {campaign, transactions}
   },
