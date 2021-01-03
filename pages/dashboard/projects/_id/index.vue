@@ -114,8 +114,11 @@
                 {{transaction.nama}}
                 </div>
                 <p class="text-sm text-gray-600 flex items-center mb-2">
-                Rp. {{new Intl.NumberFormat().format(transaction.amount)}} &middot; {{transaction.Status}}
+                Rp. {{new Intl.NumberFormat().format(transaction.amount)}} &middot; {{transaction.created_at}}
                 </p>
+                <div class="text-gray-900 font-bold text-xl mb-1">
+                {{transaction.status}}
+                </div>
             </div>
             </div>
         </div>
