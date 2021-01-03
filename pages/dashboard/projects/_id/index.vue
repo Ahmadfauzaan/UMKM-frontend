@@ -100,7 +100,7 @@
         <div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
             <h3 class="text-2xl text-gray-900 mb-4 mt-5">
-            Transaksi pendanaan
+            Transaksi Investor
             </h3>
         </div>
         </div>
@@ -116,8 +116,6 @@
                 <p class="text-sm text-gray-600 flex items-center mb-2">
                 Rp. {{new Intl.NumberFormat().format(transaction.amount)}} &middot; {{transaction.created_at}}
                 </p>
-                <div class="text-gray-900 font-bold text-xl mb-1">
-                {{transaction.status}}
                 </div>
             </div>
             </div>
