@@ -130,9 +130,6 @@
               Rp {{ new Intl.NumberFormat().format(campaign.data.goal_amount) }}
             </div>
           </div>
-          <p class="font-light text-xl mb-5">
-            {{ campaign.data.description }}
-          </p>
         </div>
         <div class="w-1/4 hidden md:block"></div>
       </div>
