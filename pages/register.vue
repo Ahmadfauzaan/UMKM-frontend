@@ -63,7 +63,7 @@
                 <input
                   type="email"
                   class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
-                  placeholder="Email"
+                  placeholder="NPWP"
                   v-model="register.npwp"
                 />
               </div>
