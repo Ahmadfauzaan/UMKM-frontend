@@ -23,13 +23,13 @@
                 <label class="font-normal text-lg text-white block mb-3"
                   >Peran User</label
                 >
-                <select name="peran user" v-model="register.peran_user">
+                <select name="peran user" class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" v-model="register.peran_user">
                   <option value="Pelaku Bisnis UMKM">Pelaku Bisnis UMKM</option>
                   <option value="Investor">Investor</option>
                 </select>
               </div>
             </div>
-                        <div class="mb-6">
+              <div class="mb-6">
               <div class="mb-4">
                 <label class="font-normal text-lg text-white block mb-3"
                   >No Telfon</label
