@@ -24,8 +24,8 @@
                   >Peran User</label
                 >
                 <select name="peran user" class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" v-model="register.peran_user" p>
-                  <option class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" value="Pelaku Bisnis UMKM">Pelaku Bisnis UMKM</option>
-                  <option class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" value="Investor">Investor</option>
+                  <option value="Pelaku Bisnis UMKM">Pelaku Bisnis UMKM</option>
+                  <option value="Investor">Investor</option>
                 </select>
               </div>
             </div>
