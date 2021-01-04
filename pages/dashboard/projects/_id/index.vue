@@ -116,15 +116,14 @@
                 <p class="text-sm text-gray-600 flex items-center mb-2">
                 Rp. {{new Intl.NumberFormat().format(transaction.amount)}} &middot; {{transaction.created_at}}
                 </p>
-                </div>
             </div>
             </div>
         </div>
-        </div>
+        <div>
     </section>
     <div class="cta-clip -mt-20"></div>
     <section class="call-to-action bg-purple-progress pt-64 pb-10"></section>
-<Footer />
+    <Footer />
     </div>
 </template>
 
