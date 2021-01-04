@@ -23,10 +23,18 @@
                 <label class="font-normal text-lg text-white block mb-3"
                   >Pekerjaan</label
                 >
-                <input type="radio"> Male<br>
-                <input type="radio"> Male<br>
-                <!-- placeholder="Pekerjaan"
-                v-model="register.pekerjaan" -->
+                <input
+                  type="radio"
+                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
+                  placeholder="Pekerjaan"
+                  v-model="register.pekerjaan"
+                /> UMKM <br>              
+                <input
+                  type="radio"
+                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
+                  placeholder="Pekerjaan"
+                  v-model="register.pekerjaan"
+                /> Investor
               </div>
             </div>
                         <div class="mb-6">
