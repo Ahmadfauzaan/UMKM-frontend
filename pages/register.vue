@@ -23,17 +23,10 @@
                 <label class="font-normal text-lg text-white block mb-3"
                   >Pekerjaan</label
                 >
-                <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                </div>
-                <input
-                  type="text"
-                  class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100"
-                  placeholder="Pekerjaan"
-                  v-model="register.pekerjaan"
-                />
+                <input type="radio"> Male<br>
+                <input type="radio"> Male<br>
+                <!-- placeholder="Pekerjaan"
+                v-model="register.pekerjaan" -->
               </div>
             </div>
                         <div class="mb-6">
