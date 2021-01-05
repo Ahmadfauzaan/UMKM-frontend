@@ -11,14 +11,14 @@
             <h2 class="text-4xl text-gray-900 mb-2 font-medium">Dashboard</h2>
             <ul class="flex mt-2">
             <li class="mr-6">
-                <a class="text-gray-800 font-bold" href="#"> Project Anda </a>
+                <a class="text-gray-800 font-bold" href="#"> Ide UMKM Anda </a>
             </li>
             <li class="mr-6">
                 <nuxt-link
                 class="text-gray-500 hover:text-gray-800"
                 to="/dashboard/transactions"
                 >
-                Transaksi Anda
+                Transaksi Investasi Anda
                 </nuxt-link>
             </li>
             </ul>

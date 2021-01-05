@@ -20,7 +20,7 @@
               href="#projects"
               class="bg-orange-button hover:bg-green-button text-white font-semibold px-12 py-3 text-xl rounded-full"
             >
-              Temukan Project
+              Temukan UMKM
             </a>
           </div>
           <div class="w-1/2 flex justify-center">
@@ -60,9 +60,9 @@
             <img src="/step-2-illustration.svg" alt="" class="h-30 mb-8" />
           </figure>
           <div class="step-content">
-            <h3 class="font-medium">Buka Project</h3>
+            <h3 class="font-medium">Buka UMKM</h3>
             <p class="font-light">
-              Pilih Beberapa Ide Project, <br />
+              Pilih Beberapa Ide UMKM, <br />
               Dan Mulailah Untuk Menginvestasikan Dana Anda Pada UMKM
             </p>
           </div>
@@ -85,7 +85,7 @@
       <div class="flex justify-between items-center">
         <div class="w-auto">
           <h2 class="text-3xl text-gray-900 mb-8">
-            Project Baru Yang Bisa <br />
+            UMKM Yang Bisa <br />
             Anda Investasikan
           </h2>
         </div>

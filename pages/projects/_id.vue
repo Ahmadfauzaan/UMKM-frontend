@@ -37,7 +37,7 @@
             class="bg-white w-full p-5 border border-gray-400 rounded-20 sticky"
             style="top: 15px"
           >
-            <h3>Project Leader:</h3>
+            <h3>Pemilik UMKM:</h3>
 
             <div class="flex mt-3">
               <div class="w-1/4">
@@ -69,7 +69,7 @@
               <input
                 type="number"
                 class="border border-gray-500 block w-full px-6 py-3 mt-4 rounded-full text-gray-800 transition duration-300 ease-in-out focus:outline-none focus:shadow-outline"
-                placeholder="Amount in Rp"
+                placeholder="Investasikan"
                 v-model.number="transactions.amount"
                 @keyup.enter="fund"
               />

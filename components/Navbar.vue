@@ -15,7 +15,7 @@
         <nuxt-link
           class="text-white hover:text-teal-500 text-lg px-4 py-3"
           to="#projects"
-          >Project</nuxt-link
+          >UMKM</nuxt-link
         >
       </li>
       <li>
