@@ -63,7 +63,7 @@
                   >User Sebagai: </label
                 >
                 <select name="peran user" class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" v-model="register.peran_user" p>
-                  <option value="Pelaku Bisnis UMKM">Pelaku Bisnis UMKM</option>
+                  <option value="Pelaku Bisnis UMKM">Pemilik UMKM</option>
                   <option value="Investor">Investor</option>
                 </select>
               </div>
