@@ -54,7 +54,7 @@ export default {
 
     // Axios module configuration (https://go.nuxtjs.dev/config-axios)
     axios: {
-        baseURL: 'http://localhost:8080'
+        baseURL: 'https://gentle-sea-19868.herokuapp.com'
     },
 
     auth: {
