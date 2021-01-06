@@ -60,17 +60,6 @@
             <div class="mb-6">
               <div class="mb-4">
                 <label class="font-normal text-lg text-white block mb-3"
-                  >User Sebagai: </label
-                >
-                <select name="peran user" class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" v-model="register.peran_user" p>
-                  <option value="Pemilik UMKM">Pemilik UMKM</option>
-                  <option value="Investor">Investor</option>
-                </select>
-              </div>
-            </div>
-            <div class="mb-6">
-              <div class="mb-4">
-                <label class="font-normal text-lg text-white block mb-3"
                   >Password</label
                 >
                 <input
@@ -80,6 +69,17 @@
                   v-model="register.password"
                   @keyup.enter="userRegister"
                 />
+              </div>
+            </div>
+            <div class="mb-6">
+              <div class="mb-4">
+                <label class="font-normal text-lg text-white block mb-3"
+                  >User Sebagai: </label
+                >
+                <select name="peran user" v-model="register.peran_user">
+                  <button class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full mr-4" value="Pemilik UMKM">Pemilik UMKM</button>
+                  <button class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full mr-4" value="Investor">Investor</button>
+                </select>
               </div>
             </div>
             <div class="mb-6">
