@@ -62,7 +62,7 @@
                 <label class="font-normal text-lg text-white block mb-3"
                   >User Sebagai: </label
                 >
-                <select name="peran user" v-model="register.peran_user">
+                <select class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" name="peran user" v-model="register.peran_user">
                   <option class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" value="Pemilik UMKM">Pemilik UMKM</option>
                   <option class="auth-form focus:outline-none focus:bg-purple-hover focus:shadow-outline focus:border-purple-hover-stroke focus:text-gray-100" value="Investor">Investor</option>
                 </select>
