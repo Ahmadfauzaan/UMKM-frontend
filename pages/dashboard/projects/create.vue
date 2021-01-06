@@ -73,12 +73,36 @@
                     <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                     >
-                    Apa yang akan didapat investor
+                    Apa yang akan didapat investor :
                     </label>
                     <input
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     type="text"
                     placeholder="Contoh: Mendapat keuntungan usaha 10%"
+                    v-model="campaign.perks"
+                    />
+                    <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    type="text"
+                    placeholder="Contoh: Kontrak Kerja selama 2 tahun"
+                    v-model="campaign.perks"
+                    />
+                    <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    type="text"
+                    placeholder="Contoh: Balik Modal"
+                    v-model="campaign.perks"
+                    />
+                    <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    type="text"
+                    placeholder="Contoh: Min Rp. 2.000.000 untuk melakukan investasi"
+                    v-model="campaign.perks"
+                    />
+                    <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    type="text"
+                    placeholder="Contoh: Keuntungan lainnya..."
                     v-model="campaign.perks"
                     />
                 </div>
